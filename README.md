@@ -16,3 +16,9 @@ response
 ```
 {"text":"我好餓"}
 ```
+
+# Run Server with Docker
+```
+docker build -t zhuyin .
+docker run --name zhuyin-server -d -p 8666:8666 zhuyin
+```
